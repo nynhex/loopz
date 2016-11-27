@@ -30,6 +30,8 @@ gem 'materialize-sass'
 gem 'sucker_punch', '~> 2.0', '>= 2.0.2'
 # Use imgkit to capture screenshot of target site
 gem 'imgkit', '~> 1.6', '>= 1.6.1'
+# Scrape title of target website or url
+gem 'mechanize', '~> 2.7', '>= 2.7.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
