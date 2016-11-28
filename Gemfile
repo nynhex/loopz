@@ -32,14 +32,20 @@ gem 'sucker_punch', '~> 2.0', '>= 2.0.2'
 gem 'imgkit', '~> 1.6', '>= 1.6.1'
 # Scrape title of target website or url
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
+# wkhtmltopdf-binary for converting snapshots to images
+gem 'wkhtmltoimage-binary', '~> 0.12.2'
+# Carrierwave to handle uploads on models
+gem 'carrierwave', '~> 0.11.2'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
+gem 'capistrano', '~> 3.1.0'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rails', '~> 1.1.1'
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
