@@ -1,0 +1,6 @@
+
+<%= @link.title %>
+<%= @link.display_slug %> Clicks: <%= @link.clicks %>
+<% if @link.snapshot.present? %>
+  <%= image_tag @link.snapshot.url %>
+<% end %>
